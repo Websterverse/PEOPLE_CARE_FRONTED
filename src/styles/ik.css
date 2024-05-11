@@ -1,0 +1,139 @@
+.mains{
+    height: 700px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    padding: 70px;
+    margin-top: 80px;
+    }
+    
+    .l{
+        border-radius: 30px;
+        width: 35%;
+        height: 100%;
+        /* background-color: aquamarine; */
+        background-image: url("../assest/about.jpg");
+        background-position: center;
+        overflow: hidden;
+        /* object-fit: cover; */
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .r{
+        overflow: hidden
+        ;
+        padding: 40px;
+        width: 70%;
+        height: 100%;
+        /* background-color: blue; */
+        border-radius: 30px;
+    }
+    
+    .ab{
+        /* background: #000; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        border-radius: 30px;
+    }
+    
+    .ba{
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        overflow: hidden;
+        /* color: aqua; */
+        color: #3CD3AD;
+        text-decoration: 2px  gray solid underline;
+    }
+    
+    .best{
+        font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    /* color: #3CD3AD; */
+    font-size: 60px;
+    line-height: 1.1;
+    overflow: hidden;
+    text-decoration: none;
+    }
+    
+    .in{
+        /* color: white; */
+        color: black;
+        padding-top: 10px;
+        font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    }
+    
+    #ic{
+        display: flex;
+        /* padding-top: 2px; */
+        margin-top: 30px;
+    width: 100%;
+    /* background-color: brown; */
+    height: 210px;
+    }
+    
+    .ic1{
+        position: absolute;
+    width: 160px;
+    height: 160px;
+    background-color: #EFF5F9;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    
+    }
+    
+    .IC1{
+    position: relative;
+    color: #3CD3AD;
+    font-size: 50px;
+    /* margin-bottom: -20px; */
+    bottom: -25px;
+    /* padding-top: 12px; */
+    margin-left: 52px;
+    }
+    
+    .q{
+    color: aliceblue;
+    /* left: 20px; */
+    font-size: 20px;
+    padding-top: 40px;
+    font-weight: 900;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    padding-left: 40px;
+    }
+    
+    .qq{
+    padding-left: 60px;
+    
+    }
+    
+    .d{
+        color: #3CD3AD;
+        
+        font-size: 14px;
+        font-weight: 900;
+        padding-top: -30px;
+        padding-left: 55px;
+        font-family: "Roboto", sans-serif;
+    
+    }
+    
+    .ic2{
+    margin-left: 200px;
+    
+    }
+    
+    .ic3{
+        margin-left: 400px;
+        
+    }
+    
+    .ic4{
+        
+        margin-left: 600px;
+    
+    }

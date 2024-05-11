@@ -1,0 +1,172 @@
+
+.form {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+.container1 {
+ padding: 100px;
+ /* display: ; */
+ /* position: absolute; */
+}
+
+  .form h2 {
+    /* color: rgb(128, 128, 128); */
+    /* color: red; */
+    color: #3CD3AD;
+    /* letter-spacing: 4px; */
+    margin-bottom: 30px;
+  }
+  .form h4 {
+    /* color: gray; */
+    /* color: #9083d5; */
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .form p {
+    max-width: 750px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  .form form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .form form div {
+    display: flex;
+    gap: 30px;
+  }
+  .form form input,
+  .form form select,
+  .form form textarea {
+    flex: 1;
+    font-size: 24px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 7px;
+    border: 1px solid #000;
+  }
+  .form button {
+    padding: 10px 35px;
+    color: #fff;
+    font-weight: 700;
+    width: fit-content;
+    border: none;
+    border-radius: 8px;
+    font-size: 24px;
+    margin-bottom: 30px;
+    background: linear-gradient(140deg, #4CB8C4, #3CD3AD);
+  }
+  .form .wrapper {
+    display: flex;
+    gap: 50px;
+  }
+  .form .wrapper .banner {
+    flex: 1;
+  }
+  .form .wrapper .banner:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form .wrapper .banner:last-child img {
+    max-width: 450px;
+  }
+  
+  input:focus{
+    /* color: skyblue; */
+    border: 2px solid skyblue;
+  }
+
+
+
+  input[type="date"]:before {
+    content: attr(placeholder);
+    color: #444;
+    margin-right: 0.5em;
+  }
+  
+  
+  input[type="time"]:before {
+    content: attr(placeholder);
+    color: #444;
+    margin-right: 0.5em;
+  } 
+  
+#n{
+  margin-left: 37px;
+}
+
+#no{
+  margin-left: 27px;
+}
+
+#mn{
+margin-left: 1px;
+
+}
+  @media (max-width: 888px) {
+    .form-component {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .form-component form div {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 667px) {
+    .form-component form input,
+    .form-component form select,
+    .form-component form textarea {
+      font-size: 20px;
+      padding: 10px;
+    }
+  }
+  
+
+
+
+  /* MY CSS */
+
+  .text-area{
+display: flex;
+
+
+  }
+.texts{
+margin-left:-35px;
+
+}
+
+.mssgs{
+
+/* margin-left: ; */
+/* padding: 200px; */
+text-decoration: underline;
+}
+
+
+.emails{
+  text-decoration: underline;
+}
+
+.phone{
+  text-decoration: underline;
+}
+
+.send{
+color: #3CD3AD;
+font-size: 50px;
+font-weight: 900;
+/* -webkit-text-stroke: 1.2px #3CD3AD; */
+}
+
+.name{
+color: #3CD3AD;
+letter-spacing: 0;
+text-decoration: underline;
+}
+/* 
+.mssg{
+  text-decoration: underline;
+} */
